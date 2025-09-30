@@ -26,7 +26,7 @@ library(gridExtra)
 
 # Load the dataset
 setwd("D:/Ecological Model Types/MLP/")
-FSR = read.csv(file="MLP_FFishSREnv.csv")
+FSR = read.csv(file="FFishSREnv.csv")
 
 # View the first few rows of the dataset
 head(FSR)
@@ -249,4 +249,5 @@ for (v in predictors) {
   lines(sub$x, sub$upper, col = "blue", lty = 3)
   lines(sub$x, sub$lower, col = "blue", lty = 3)
 }
+
 
