@@ -25,8 +25,8 @@ library(ggplot2)
 library(gridExtra)
 
 # Load the dataset
-setwd("D:/Papers/Book/Elsevier Book/Ecological Model Types/MLP/New_MLPTaining")
-FSR = read.csv(file="FFishSREnv.csv")
+setwd("D:/Ecological Model Types/MLP/")
+FSR = read.csv(file="MLP_FFishSREnv.csv")
 
 # View the first few rows of the dataset
 head(FSR)
@@ -249,3 +249,4 @@ for (v in predictors) {
   lines(sub$x, sub$upper, col = "blue", lty = 3)
   lines(sub$x, sub$lower, col = "blue", lty = 3)
 }
+
