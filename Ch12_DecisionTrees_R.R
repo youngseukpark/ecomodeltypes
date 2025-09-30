@@ -1,5 +1,5 @@
 ###########################################
-# R script used in Chapter 13 Decision tree models in machine learning
+# R script used in Chapter 12 Decision tree models in machine learning
 # Elsevier 2025. Ecological Model Types
 # Authors: Sovan Lek & Young-Seuk Park
 # Date: 2025.07.17
@@ -135,4 +135,5 @@ table(r2,rmse)
 
 # Plot variable importance
 barplot(rpart.mod.reg.prune$variable.importance, las=2, xlab="Input Variables", ylab="Importance")
+
 
