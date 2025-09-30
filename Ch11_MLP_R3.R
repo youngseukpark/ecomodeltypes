@@ -133,7 +133,7 @@ plot(train_data$SR, prediction1,
      xlab = "Actual SR", ylab = "Predicted SR"
 )
 abline(0, 1, col = "red", lty = 2)
-# r °ª Ãß°¡
+# r Â°Âª ÃƒÃŸÂ°Â¡
 text(0.05, 0.95, paste("r =", r_tr), pos = 4)
 
 # test results
@@ -144,7 +144,7 @@ plot(test_data$SR, prediction2,
      xlab = "Actual SR", ylab = "Predicted SR"
 )
 abline(0, 1, col = "red", lty = 2)
-# r °ª Ãß°¡
+# r Â°Âª ÃƒÃŸÂ°Â¡
 text(0.05, 0.95, paste("r =", r_ts), pos = 4)
 
 
